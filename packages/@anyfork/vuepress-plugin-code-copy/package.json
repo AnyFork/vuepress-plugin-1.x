@@ -1,0 +1,32 @@
+{
+  "name": "@anyfork/vuepress-plugin-code-copy",
+  "version": "0.1.0-beta.2",
+  "description": "vuepress plugin code copy for vuepress v1.x",
+  "main": "index.js",
+  "files": [
+    "bin"
+  ],
+  "license": "MIT",
+  "author": "anyfork",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "@anyfork/vuepress-plugin-code-copy",
+    "vuepress",
+    "plugin",
+    "vuepress-plugin-code-copy",
+    "code copy"
+  ],
+  "homepage": "https://github.com/AnyFork/vuepress-plugin-1.x/issues",
+  "bugs": {
+    "url": "https://github.com/AnyFork/vuepress-plugin-1.x/issues/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnyFork/vuepress-plugin-1.x/issues"
+  },
+  "dependencies": {
+    "clipboard": "2.0.4"
+  }
+}
