@@ -1,9 +1,9 @@
 <template>
   <div id="loader-wrapper">
-    <h3 class="title" v-if="$frontmatter.home">
+    <h3 class="title">
       {{ $site.title || $localeConfig.title }}
     </h3>
-    <p class="description" v-if="$frontmatter.home">
+    <p class="description">
       {{ $site.description || $localeConfig.description }}
     </p>
     <component :is="mode"></component>
@@ -25,7 +25,7 @@ export default defineComponent({
       if (RANDOM) {
         return componentObj[Math.floor(Math.random() * 5)]
       } else {
-        return componentObj.find((item) => item.__name === MODE)
+        return componentObj.find((item) => item.name=== MODE)
       }
     })
     return { mode }

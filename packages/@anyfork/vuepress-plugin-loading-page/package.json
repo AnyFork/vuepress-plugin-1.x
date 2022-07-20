@@ -1,6 +1,6 @@
 {
   "name": "@anyfork/vuepress-plugin-loading-page",
-  "version": "0.1.0-beta.5",
+  "version": "0.1.1",
   "description": "vuepress plugin loading page for vuepress v1.x",
   "main": "index.js",
   "files": [
